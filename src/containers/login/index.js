@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../assets/logoSemFundo.png'
+import Logo from '../../assets/logo.jpeg'
 import Arrow from '../../assets/arrow.png'
 import {
     Container,
