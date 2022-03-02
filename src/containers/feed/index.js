@@ -11,6 +11,7 @@ import {
     ParagraphCity,
     ContainerSeminary,
     Image,
+    EventName,
     ParagraphDescrition,
     ParagraphValue,
     Button,
@@ -78,7 +79,8 @@ export default function Feed() {
             </ContainerNav>
 
             <ContainerSeminary>
-                <Image alt="Imagem-Seminário" src={ImgSeminary} />
+                <Image alt="Imagem-Seminário" src={ImgSeminary}></Image>
+                <EventName><p>Seminário Universitário</p></EventName>
                 <ParagraphDescrition>Novas tecnologias de hadware da Apple</ParagraphDescrition>
                 <ParagraphCity>Campinas(SP)</ParagraphCity>
                 <ParagraphValue>R$20,00</ParagraphValue>
@@ -87,6 +89,7 @@ export default function Feed() {
 
             <ContainerWorkshop>
                 <Image alt="Imagem-Workshop" src={ ImgWorkshop} />
+                <EventName><p>Workshop Empresarial</p></EventName>
                 <ParagraphDescrition>Planejamento Estratégico</ParagraphDescrition>
                 <ParagraphCity>Campinas(SP)</ParagraphCity>
                 <ParagraphValue>R$20,00</ParagraphValue>

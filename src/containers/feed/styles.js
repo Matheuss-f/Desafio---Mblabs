@@ -63,11 +63,31 @@ export const Option = styled.option`
 export const ContainerSeminary = styled.div`
      display: flex;
      flex-direction: column;
+     width: 370px;
+     position: relative;
+     margin-left: 23px;
+     border-top: 1px solid rgba(255, 255, 255, 0.1);
 `
 
 export const Image = styled.img`
-    margin: 10px 23px 5px 23px;
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 23px;
     border-radius: 20px;
+`
+export const EventName = styled.div`
+    position: absolute;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 210px;
+    height: 24px;
+    background: linear-gradient(180deg, rgba(199, 192, 206, 0.35) 0%, rgba(192, 188, 197, 0.1225) 100%);
+    border-radius: 15px 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
 `
 
 export const ParagraphDescrition = styled.p`
@@ -111,6 +131,10 @@ export const Button = styled.button`
 export const ContainerWorkshop = styled.div`
     display: flex;
     flex-direction: column;
+    margin-left: 23px;
+    width: 370px;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    margin-top: 7px;
 `
 
 export const BtnLoadnMore = styled.button`
