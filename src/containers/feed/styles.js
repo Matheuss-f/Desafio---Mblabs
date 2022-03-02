@@ -73,13 +73,13 @@ export const Image = styled.img`
     width: 100%;
     margin-top: 10px;
     margin-right: 23px;
-    border-radius: 20px;
+    border-radius: 16px;
 `
 export const EventName = styled.div`
     position: absolute;
     padding-left: 10px;
-    margin-top: 10px;
-    margin-left: 25px;
+    margin-top: 11px;
+    margin-left: 2px;
     width: 210px;
     height: 24px;
     background: linear-gradient(180deg, rgba(199, 192, 206, 0.35) 0%, rgba(192, 188, 197, 0.1225) 100%);
