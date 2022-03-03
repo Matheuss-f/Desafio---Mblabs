@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 
 export const Container = styled.div`
@@ -115,7 +116,7 @@ export const ParagraphValue = styled.p`
 
 `
 
-export const Button = styled.button`
+export const Button = styled(Link)`
     margin-top: 5px;
     margin-left: 23px;
     width: 156.97px;
@@ -127,6 +128,9 @@ export const Button = styled.button`
     border-radius: 10px;
     border: none;
     outline: none;
+    color: #fff;
+    text-align: center;
+    padding-top: 8px;
 `
 export const ContainerWorkshop = styled.div`
     display: flex;

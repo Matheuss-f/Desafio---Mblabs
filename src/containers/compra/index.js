@@ -71,8 +71,8 @@ export default function Compra() {
         <ParagraphTotal>Total: R$20,00</ParagraphTotal>
 
         <ContainerButton>
-            <BtnBuy>Finalizar compra</BtnBuy>
-            <BtnFeed>Voltar para o feed</BtnFeed>       
+            <BtnBuy to="/agradecimento">Finalizar compra</BtnBuy>
+            <BtnFeed to="/feed">Voltar para o feed</BtnFeed>       
         </ContainerButton>    
 
 

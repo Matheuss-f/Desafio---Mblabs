@@ -84,7 +84,7 @@ export default function Feed() {
                 <ParagraphDescrition>Novas tecnologias de hadware da Apple</ParagraphDescrition>
                 <ParagraphCity>Campinas(SP)</ParagraphCity>
                 <ParagraphValue>R$20,00</ParagraphValue>
-                <Button>Garantir ingresso</Button>
+                <Button to="/compra">Garantir ingresso</Button>
             </ContainerSeminary>
 
             <ContainerWorkshop>
@@ -93,7 +93,7 @@ export default function Feed() {
                 <ParagraphDescrition>Planejamento Estratégico</ParagraphDescrition>
                 <ParagraphCity>Campinas(SP)</ParagraphCity>
                 <ParagraphValue>R$20,00</ParagraphValue>
-                <Button>Garantir ingresso</Button>
+                <Button to="/compra">Garantir ingresso</Button>
             </ContainerWorkshop>
 
             < BtnLoadnMore>Carregar mais</BtnLoadnMore>

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const Container = styled.div `
     background-color:#49056A;
@@ -53,7 +54,7 @@ export const Input = styled.input `
 
 
 
-export const Link = styled.a `
+export const Paragraph = styled.a `
     text-align: right;
     margin-top: 20px;
     font-size: 12px;
@@ -62,7 +63,7 @@ export const Link = styled.a `
     text-decoration: none;
 `
 
-export const Button = styled.button `
+export const Button = styled(Link) `
     margin-top: 100px;
     width: 340px;
     height: 44px;
@@ -75,6 +76,7 @@ export const Button = styled.button `
     align-items: center;
     justify-content: center;
     gap: 20px;
+   
 
     &:active{
         opacity: 0.8;

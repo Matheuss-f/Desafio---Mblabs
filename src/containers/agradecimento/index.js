@@ -28,8 +28,8 @@ export default function Agradecimento() {
             </ContainerThanks>
 
             <ContainerButtons>
-                <Button>Voltar para o feed</Button>
-                <Button>Sair</Button>
+                <Button to="/feed">Voltar para o feed</Button>
+                <Button to="/">Sair</Button>
             </ContainerButtons>
         </Container>
     )

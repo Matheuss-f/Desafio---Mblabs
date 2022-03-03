@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 
 export const Container = styled.div `
@@ -104,7 +105,7 @@ export const ContainerButton = styled.div `
     
 ` 
 
-export const BtnBuy = styled.button `
+export const BtnBuy = styled(Link) `
     background: #F49507;
     width: 360px;
     height: 56px;
@@ -115,10 +116,11 @@ export const BtnBuy = styled.button `
     font-size: 20px;
     text-align: center;
     color: #FFFFFF;
+    padding-top: 15px;
     
 ` 
 
-export const BtnFeed = styled.button `
+export const BtnFeed = styled(Link) `
     background: linear-gradient(180deg, #BF07FF 0%, rgba(254, 11, 186, 0.77) 100%);
     width: 360px;
     height: 56px;
@@ -129,6 +131,7 @@ export const BtnFeed = styled.button `
     font-size: 20px;
     text-align: center;
     color: #FFFFFF;
+    padding-top: 15px;
 ` 
 
 

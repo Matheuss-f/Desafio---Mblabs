@@ -8,7 +8,7 @@ import {
     H2,
     InputLabel,
     Input,
-    Link,
+    Paragraph,
     Button
 } from "./styles";
 
@@ -28,9 +28,9 @@ export default function Login() {
                 <InputLabel>Senha</InputLabel>
                 <Input placeholder="Senha" type="password" />
 
-                <Link>Esqueceu a senha?</Link>
+                <Paragraph>Esqueceu a senha?</Paragraph>
 
-                <Button>Entrar <img alt='Seta' src={Arrow}></img></Button>
+                <Button to="/feed">Entrar <img alt='Seta' src={Arrow}></img></Button>
 
             </ContainerItens>
         </Container>
