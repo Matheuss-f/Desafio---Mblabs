@@ -4,10 +4,9 @@ import { Link } from "react-router-dom";
 
 export const Container = styled.div `
     background: #DCC9E2;
-    height: 100vh;
-    width: 415px;
-    position: absolute;
-    
+    height: 105vh;
+    width: 425px;
+    position: absolute;  
 `
 
 export const ContainerHeader = styled.div `

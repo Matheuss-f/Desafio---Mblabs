@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 
 export const Container = styled.div`
-    background-color: #49056A;
-    height: 100vh; 
+    background: #49056A;
+    height: 105vh; 
 `
 
 export const ContainerNav = styled.nav`
