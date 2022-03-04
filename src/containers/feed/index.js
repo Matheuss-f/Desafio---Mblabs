@@ -2,8 +2,6 @@ import React from 'react';
 import ImgSeminary from '../../assets/seminario.png'
 import ImgWorkshop from '../../assets/workshop.png'
 import {
-    Container,
-    ContainerNav,
     InputSearch,
     ParagraphNav,
     Select,
@@ -22,8 +20,8 @@ import {
 export default function Feed() {
 
     return (
-        <Container>
-            <ContainerNav>
+        <div>
+            <div>
                 <InputSearch placeholder='Pesquisar por eventos ...'></InputSearch>
 
                 <ParagraphNav>Onde você deseja buscar por eventos?</ParagraphNav>
@@ -76,7 +74,7 @@ export default function Feed() {
                         Empresariais
                     </Option>
                 </Select>
-            </ContainerNav>
+            </div>
 
             <ContainerSeminary>
                 <Image alt="Imagem-Seminário" src={ImgSeminary}></Image>
@@ -99,7 +97,7 @@ export default function Feed() {
             < BtnLoadnMore>Carregar mais</BtnLoadnMore>
 
             
-        </Container>
+        </div>
     )
 
 }

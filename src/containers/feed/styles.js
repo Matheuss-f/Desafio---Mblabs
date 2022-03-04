@@ -2,14 +2,6 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 
-export const Container = styled.div`
-    background: #49056A;
-    height: 105vh; 
-`
-
-export const ContainerNav = styled.nav`
-
-`
 
 export const InputSearch = styled.input`
     outline: none;
@@ -17,14 +9,13 @@ export const InputSearch = styled.input`
     margin-top: 20px;
     border: none;
     text-align: center;
-    background: #fff ;
-    opacity: 0.5;
+    background:#DCCAE2;   /*#A681B*/
     border-radius: 24px;
     width: 370px;
     height: 48px;
     font-style: normal;
     font-size: 16px;
-    color: #fff;
+    color: #000;
 `
 
 export const ParagraphNav = styled.p`
@@ -52,8 +43,7 @@ export const Select = styled.select`
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    color: #FFFFFF;
-
+    color: #fff;
 `
 
 export const Option = styled.option`

@@ -4,8 +4,10 @@ import Login from './containers/login'
 
 const App = () => {
     return(
+        <>
         <Login />
-        
+        <GlobalStyle />
+        </>
     )
 }
 

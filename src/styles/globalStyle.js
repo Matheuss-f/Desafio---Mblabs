@@ -10,4 +10,8 @@ export default createGlobalStyle`
         text-decoration: none;
     }
 
+    body{
+        background-color: #49056A;
+    }
+
 `
